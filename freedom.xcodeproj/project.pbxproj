@@ -13,6 +13,7 @@
 		874ECD721E37868400A1A549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874ECD711E37868400A1A549 /* Assets.xcassets */; };
 		874ECD751E37868400A1A549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874ECD731E37868400A1A549 /* LaunchScreen.storyboard */; };
 		874ECD801E37868400A1A549 /* freedomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ECD7F1E37868400A1A549 /* freedomTests.swift */; };
+		87F2E60F1E379E5100DAD63C /* company.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 87F2E60E1E379E5100DAD63C /* company.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		874ECD7B1E37868400A1A549 /* freedomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freedomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874ECD7F1E37868400A1A549 /* freedomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedomTests.swift; sourceTree = "<group>"; };
 		874ECD811E37868400A1A549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F2E60E1E379E5100DAD63C /* company.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = company.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		874ECD5E1E37868300A1A549 = {
 			isa = PBXGroup;
 			children = (
+				87F2E60E1E379E5100DAD63C /* company.gpx */,
 				874ECD691E37868400A1A549 /* freedom */,
 				874ECD7E1E37868400A1A549 /* freedomTests */,
 				874ECD681E37868400A1A549 /* Products */,
@@ -182,6 +185,7 @@
 				874ECD751E37868400A1A549 /* LaunchScreen.storyboard in Resources */,
 				874ECD721E37868400A1A549 /* Assets.xcassets in Resources */,
 				874ECD701E37868400A1A549 /* Main.storyboard in Resources */,
+				87F2E60F1E379E5100DAD63C /* company.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +408,7 @@
 				874ECD861E37868400A1A549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		874ECD871E37868400A1A549 /* Build configuration list for PBXNativeTarget "freedomTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +417,7 @@
 				874ECD891E37868400A1A549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
