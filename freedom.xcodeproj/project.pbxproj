@@ -149,6 +149,7 @@
 				TargetAttributes = {
 					874ECD661E37868400A1A549 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SWM5MN65PP;
 						ProvisioningStyle = Automatic;
 					};
 					874ECD7A1E37868400A1A549 = {
@@ -341,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				INFOPLIST_FILE = freedom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarcoLi.freedom;
@@ -353,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				INFOPLIST_FILE = freedom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarcoLi.freedom;
