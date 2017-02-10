@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.3.0)
+  - lottie-ios (1.0.2)
   - Moya (8.0.2):
     - Moya/Core (= 8.0.2)
   - Moya/Core (8.0.2):
@@ -12,17 +13,19 @@ PODS:
   - SnapKit (3.1.2)
 
 DEPENDENCIES:
+  - lottie-ios
   - Moya (~> 8.0.2)
   - SDWebImage (~> 3.8)
   - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  lottie-ios: 8564a52e01a29c180ded076cb059aae8ec378cf1
   Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
 
-PODFILE CHECKSUM: 21f6736b6a5fe97837d224db89f199a49812f92d
+PODFILE CHECKSUM: 935e70f77cd39ae9553f992dbe4988683a9be52b
 
 COCOAPODS: 1.2.0.beta.1
