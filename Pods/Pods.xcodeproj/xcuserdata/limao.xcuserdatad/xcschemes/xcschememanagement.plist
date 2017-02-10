@@ -4,41 +4,75 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-freedom.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 		<key>Pods-freedomTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>Result.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1215771836B84E9F9899950098D2FF80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52ACA0236F086E72B74F0A090A743D41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>647F5D19730DEA4E4FA2A2E015E63B7E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6FC045453A66E5B1200D0B113539C79C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8206E5029A59D607A1BF01AEE0F3B08D</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB06640E375B7F69747E4BCDB0F3872F</key>
+		<key>AC16367BEBCFEE2F77A8D5D28A34962B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F64AD35DDAB5301E49812FFCCE0914AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

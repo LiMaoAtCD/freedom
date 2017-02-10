@@ -187,7 +187,7 @@
 				TargetAttributes = {
 					874ECD661E37868400A1A549 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SWM5MN65PP;
+						DevelopmentTeam = 5KWVS58U6S;
 						ProvisioningStyle = Automatic;
 					};
 					874ECD7A1E37868400A1A549 = {
@@ -474,10 +474,10 @@
 			baseConfigurationReference = 34DF7553FFC3E81CD13259CE /* Pods-freedom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SWM5MN65PP;
+				DEVELOPMENT_TEAM = 5KWVS58U6S;
 				INFOPLIST_FILE = freedom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MarcoLi.freedom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angel.freedom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -488,10 +488,10 @@
 			baseConfigurationReference = 5BF717EA68B9561D81321687 /* Pods-freedom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SWM5MN65PP;
+				DEVELOPMENT_TEAM = 5KWVS58U6S;
 				INFOPLIST_FILE = freedom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MarcoLi.freedom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angel.freedom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

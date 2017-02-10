@@ -7,6 +7,10 @@ target 'freedom' do
 
   # Pods for freedom
 	pod 'SDWebImage', '~>3.8'
+    pod 'SnapKit'
+    pod 'lottie-ios'
+    pod 'Moya', '~>8.0.2'
+    
 
   target 'freedomTests' do
     inherit! :search_paths
