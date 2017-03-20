@@ -15,6 +15,8 @@
 		874ECD801E37868400A1A549 /* freedomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ECD7F1E37868400A1A549 /* freedomTests.swift */; };
 		87F2E60F1E379E5100DAD63C /* company.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 87F2E60E1E379E5100DAD63C /* company.gpx */; };
 		9F8AFF6C9A48DB56918E1073 /* Pods_freedomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A0968866F33707016B79 /* Pods_freedomTests.framework */; };
+		DA7AA7561E52EF1E004F3514 /* kkkkkk.json in Resources */ = {isa = PBXBuildFile; fileRef = DA7AA7551E52EF1E004F3514 /* kkkkkk.json */; };
+		DA7AA7581E52F336004F3514 /* hecheng.json in Resources */ = {isa = PBXBuildFile; fileRef = DA7AA7571E52F336004F3514 /* hecheng.json */; };
 		EEB4A79AF55A4048010B0733 /* Pods_freedom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F070E07EC4A329BDEDC6C662 /* Pods_freedom.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		874ECD7F1E37868400A1A549 /* freedomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedomTests.swift; sourceTree = "<group>"; };
 		874ECD811E37868400A1A549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F2E60E1E379E5100DAD63C /* company.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = company.gpx; sourceTree = "<group>"; };
+		DA7AA7551E52EF1E004F3514 /* kkkkkk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kkkkkk.json; sourceTree = "<group>"; };
+		DA7AA7571E52F336004F3514 /* hecheng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hecheng.json; path = ../hecheng.json; sourceTree = "<group>"; };
 		F070E07EC4A329BDEDC6C662 /* Pods_freedom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freedom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +116,8 @@
 		874ECD691E37868400A1A549 /* freedom */ = {
 			isa = PBXGroup;
 			children = (
+				DA7AA7551E52EF1E004F3514 /* kkkkkk.json */,
+				DA7AA7571E52F336004F3514 /* hecheng.json */,
 				874ECD6A1E37868400A1A549 /* AppDelegate.swift */,
 				874ECD6C1E37868400A1A549 /* ViewController.swift */,
 				874ECD6E1E37868400A1A549 /* Main.storyboard */,
@@ -225,6 +231,8 @@
 				874ECD721E37868400A1A549 /* Assets.xcassets in Resources */,
 				874ECD701E37868400A1A549 /* Main.storyboard in Resources */,
 				87F2E60F1E379E5100DAD63C /* company.gpx in Resources */,
+				DA7AA7581E52F336004F3514 /* hecheng.json in Resources */,
+				DA7AA7561E52EF1E004F3514 /* kkkkkk.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
