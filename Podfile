@@ -10,6 +10,7 @@ target 'freedom' do
     pod 'SnapKit'
     pod 'lottie-ios'
     pod 'Moya', '~>8.0.2'
+    pod 'AsyncDisplayKit'
     
 
   target 'freedomTests' do

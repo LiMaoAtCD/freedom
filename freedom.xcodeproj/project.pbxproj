@@ -46,6 +46,7 @@
 		874ECD7B1E37868400A1A549 /* freedomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freedomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874ECD7F1E37868400A1A549 /* freedomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freedomTests.swift; sourceTree = "<group>"; };
 		874ECD811E37868400A1A549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A4AC7B1E7E2F73002BA939 /* freedom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "freedom-Bridging-Header.h"; sourceTree = "<group>"; };
 		87F2E60E1E379E5100DAD63C /* company.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = company.gpx; sourceTree = "<group>"; };
 		DA7AA7551E52EF1E004F3514 /* kkkkkk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kkkkkk.json; sourceTree = "<group>"; };
 		DA7AA7571E52F336004F3514 /* hecheng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hecheng.json; path = ../hecheng.json; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				874ECD711E37868400A1A549 /* Assets.xcassets */,
 				874ECD731E37868400A1A549 /* LaunchScreen.storyboard */,
 				874ECD761E37868400A1A549 /* Info.plist */,
+				87A4AC7B1E7E2F73002BA939 /* freedom-Bridging-Header.h */,
 			);
 			path = freedom;
 			sourceTree = "<group>";
@@ -193,7 +195,8 @@
 				TargetAttributes = {
 					874ECD661E37868400A1A549 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 5KWVS58U6S;
+						DevelopmentTeam = SWM5MN65PP;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					874ECD7A1E37868400A1A549 = {
@@ -482,11 +485,14 @@
 			baseConfigurationReference = 34DF7553FFC3E81CD13259CE /* Pods-freedom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5KWVS58U6S;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				INFOPLIST_FILE = freedom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angel.freedom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "freedom/freedom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -496,11 +502,13 @@
 			baseConfigurationReference = 5BF717EA68B9561D81321687 /* Pods-freedom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5KWVS58U6S;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SWM5MN65PP;
 				INFOPLIST_FILE = freedom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.angel.freedom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "freedom/freedom-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
