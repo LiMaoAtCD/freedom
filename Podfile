@@ -11,6 +11,7 @@ target 'freedom' do
     pod 'lottie-ios'
     pod 'Moya', '~>8.0.2'
     pod 'AsyncDisplayKit'
+    pod 'IGListKit'
     
 
   target 'freedomTests' do

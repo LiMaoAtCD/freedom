@@ -9,7 +9,32 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>IGListKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINOperation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,12 +72,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1215771836B84E9F9899950098D2FF80</key>
+		<key>080C2144589725E084F43E7036B84EA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2B68CC2D118F2635E70029F1890E9475</key>
+		<key>1215771836B84E9F9899950098D2FF80</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +87,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5232B3CB536810CA15CB2CC7453FD7AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>52ACA0236F086E72B74F0A090A743D41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6370ED3A0977A5B502B7EE55D00C7160</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +107,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7DC9D27B502D89893CC72A221C25F20C</key>
+		<key>75484E9FC8379B0447FF84F736CC0E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +117,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8AA38335723E543182A35FFAFD308306</key>
+		<key>95494D81144005207E1E4EF624FFD2E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9CE1FC57ED556647A09C53464FF9EB5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D863DF209AFF2C56879854880B5ABD64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0A59FEBE757722BE4BBBFADC6E5DD94</key>
 		<dict>
 			<key>primary</key>
 			<true/>

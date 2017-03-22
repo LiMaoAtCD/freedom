@@ -7,6 +7,11 @@ PODS:
     - AsyncDisplayKit/Core
     - PINRemoteImage/iOS (= 3.0.0-beta.8)
     - PINRemoteImage/PINCache
+  - IGListKit (2.1.0):
+    - IGListKit/Default (= 2.1.0)
+  - IGListKit/Default (2.1.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (2.1.0)
   - lottie-ios (1.0.2)
   - Moya (8.0.2):
     - Moya/Core (= 8.0.2)
@@ -35,6 +40,7 @@ PODS:
 
 DEPENDENCIES:
   - AsyncDisplayKit
+  - IGListKit
   - lottie-ios
   - Moya (~> 8.0.2)
   - SDWebImage (~> 3.8)
@@ -43,6 +49,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
+  IGListKit: b826c68ef7a4ae1626c09d4d3e1ea7a169e6c36e
   lottie-ios: 8564a52e01a29c180ded076cb059aae8ec378cf1
   Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
   PINCache: a89c8f609232afac77128557bd12c861844423d7
@@ -52,6 +59,6 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
 
-PODFILE CHECKSUM: 3cbf9f29fb104c5d5b0769ba4daf684001212a3d
+PODFILE CHECKSUM: 9339981e13c607fdaaa62e55df0dee4f12dbbb90
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.0.beta.1

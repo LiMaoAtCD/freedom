@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		874ECD6B1E37868400A1A549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ECD6A1E37868400A1A549 /* AppDelegate.swift */; };
-		874ECD6D1E37868400A1A549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ECD6C1E37868400A1A549 /* ViewController.swift */; };
 		874ECD701E37868400A1A549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874ECD6E1E37868400A1A549 /* Main.storyboard */; };
 		874ECD721E37868400A1A549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874ECD711E37868400A1A549 /* Assets.xcassets */; };
 		874ECD751E37868400A1A549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874ECD731E37868400A1A549 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		9F8AFF6C9A48DB56918E1073 /* Pods_freedomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A0968866F33707016B79 /* Pods_freedomTests.framework */; };
 		DA7AA7561E52EF1E004F3514 /* kkkkkk.json in Resources */ = {isa = PBXBuildFile; fileRef = DA7AA7551E52EF1E004F3514 /* kkkkkk.json */; };
 		DA7AA7581E52F336004F3514 /* hecheng.json in Resources */ = {isa = PBXBuildFile; fileRef = DA7AA7571E52F336004F3514 /* hecheng.json */; };
+		DAF9B8771E82676500F586F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF9B8761E82676500F586F6 /* ViewController.swift */; };
 		EEB4A79AF55A4048010B0733 /* Pods_freedom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F070E07EC4A329BDEDC6C662 /* Pods_freedom.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,6 @@
 		5BF717EA68B9561D81321687 /* Pods-freedom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freedom.release.xcconfig"; path = "Pods/Target Support Files/Pods-freedom/Pods-freedom.release.xcconfig"; sourceTree = "<group>"; };
 		874ECD671E37868400A1A549 /* freedom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freedom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874ECD6A1E37868400A1A549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		874ECD6C1E37868400A1A549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		874ECD6F1E37868400A1A549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		874ECD711E37868400A1A549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874ECD741E37868400A1A549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		87F2E60E1E379E5100DAD63C /* company.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = company.gpx; sourceTree = "<group>"; };
 		DA7AA7551E52EF1E004F3514 /* kkkkkk.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kkkkkk.json; sourceTree = "<group>"; };
 		DA7AA7571E52F336004F3514 /* hecheng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hecheng.json; path = ../hecheng.json; sourceTree = "<group>"; };
+		DAF9B8761E82676500F586F6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F070E07EC4A329BDEDC6C662 /* Pods_freedom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freedom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 				DA7AA7551E52EF1E004F3514 /* kkkkkk.json */,
 				DA7AA7571E52F336004F3514 /* hecheng.json */,
 				874ECD6A1E37868400A1A549 /* AppDelegate.swift */,
-				874ECD6C1E37868400A1A549 /* ViewController.swift */,
+				DAF9B8761E82676500F586F6 /* ViewController.swift */,
 				874ECD6E1E37868400A1A549 /* Main.storyboard */,
 				874ECD711E37868400A1A549 /* Assets.xcassets */,
 				874ECD731E37868400A1A549 /* LaunchScreen.storyboard */,
@@ -346,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874ECD6D1E37868400A1A549 /* ViewController.swift in Sources */,
+				DAF9B8771E82676500F586F6 /* ViewController.swift in Sources */,
 				874ECD6B1E37868400A1A549 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
