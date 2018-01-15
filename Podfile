@@ -6,12 +6,12 @@ target 'freedom' do
   use_frameworks!
 
   # Pods for freedom
-	pod 'SDWebImage', '~>3.8'
-    pod 'SnapKit'
-    pod 'lottie-ios'
-    pod 'Moya', '~>8.0.2'
-    pod 'AsyncDisplayKit'
-    pod 'IGListKit'
+#    pod 'SDWebImage', '~>3.8'
+#    pod 'SnapKit'
+#    pod 'lottie-ios'
+#    pod 'AsyncDisplayKit'
+#    pod 'IGListKit'
+#    
     
 
   target 'freedomTests' do

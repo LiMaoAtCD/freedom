@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AsyncDisplayKit
+import NetworkExtension
 
 class ViewController: ASViewController<ASDisplayNode> {
     
@@ -52,8 +52,8 @@ class MainCellNode: ASCellNode {
     init(item: MainItem) {
         super.init()
         self.automaticallyManagesSubnodes = true
-        title.attributedText = NSAttributedString.init(string: item.title, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 16), NSForegroundColorAttributeName: UIColor.blue])
-        subtitle.attributedText = NSAttributedString.init(string: item.subTitle, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 13), NSForegroundColorAttributeName: UIColor.blue])
+        title.attributedText = NSAttributedString.init(string: item.title, attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16), NSAttributedStringKey.foregroundColor: UIColor.blue])
+        subtitle.attributedText = NSAttributedString.init(string: item.subTitle, attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 13), NSAttributedStringKey.foregroundColor: UIColor.blue])
         
         
     }
